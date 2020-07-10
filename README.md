@@ -2,7 +2,7 @@
 Using a neural network model to extract quotes from news feeds
 ## Train a spaCy sequence labelling model using PARC
 #### Extract quotes
-The ```parc_spacy_model.py``` is to train a spaCy sequence labelling model on PARC data (focused on articles in news domain) first and then we can extract quotes from each article's text by asking the model to annotate the role of each word in a sentence for us. The articles in the news genre are listed in ```news_genre_file_num.txt```, according to [the news section](http://www.let.rug.nl/~bplank/metadata/genre_files_updated.html). Please download the PARC dataset from [here](https://vault.sfu.ca/index.php/s/bnUj3Jy4zR8vz1Z/authenticate) and then run the ```parc_spacy_model.py``` along with the path to the PARC dataset to generate annotated datasets.
+The ```parc_spacy_model.py``` is to train a spaCy sequence labelling model on PARC data (focused on articles in news domain) first and then we can extract quotes from each article's text by asking the model to annotate the role of each word in a sentence for us. The articles in the news genre are listed in ```news_genre_file_num.txt```, according to [the news section](http://www.let.rug.nl/~bplank/metadata/genre_files_updated.html). The PARC corpus was obtained by contacting directly the author of this paper (Pareti, 2016). Run the ```parc_spacy_model.py``` along with the path to the PARC dataset to generate annotated datasets.
 
 #### Optional arguments
 ```
@@ -49,5 +49,5 @@ Verb Match - 0.8, Accuracy: 87.1%
 ------------------------
 ```
 
-* the PARC corpus was retrieved from the author of this papaer
-Pareti, S. (2016). PARC 3.0: A Corpus of Attribution Relations.
+#### Reference
+Pareti, S. (2016). PARC 3.0: A Corpus of Attribution Relations. In *Proceedings of the Tenth International Conference on Language Resources and Evaluation (LREC'16)*. pages 3914-3920. Portorož, Slovenia.
