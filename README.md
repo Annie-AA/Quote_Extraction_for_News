@@ -49,5 +49,8 @@ Verb Match - 0.8, Accuracy: 87.1%
 ------------------------
 ```
 
+#### Workflow of the system
+![Workflow](/img/workflow.png)
+
 #### Reference
 Pareti, S. (2016). PARC 3.0: A Corpus of Attribution Relations. In *Proceedings of the Tenth International Conference on Language Resources and Evaluation (LREC'16)*. pages 3914-3920. Portorož, Slovenia.
